@@ -1,14 +1,8 @@
 vim.g.ale_completion_enabled = 1
--- nvim.tree
--- disable netrw at the very start of your init.lua
+vim.g.ale_use_neovim_diagnostics_api = 1
+
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
-
--- optionally enable 24-bit colour
-vim.opt.termguicolors = true
-
--- empty setup using defaults
-require("nvim-tree").setup()
 
 -- OR setup with some options
 require("nvim-tree").setup({
