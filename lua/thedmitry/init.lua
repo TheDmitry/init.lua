@@ -1,13 +1,10 @@
 require('packer').startup(function(use)
     use('wbthomason/packer.nvim')
-    
     use('neovim/nvim-lspconfig')
 
     use('williamboman/mason.nvim')
     use('williamboman/mason-lspconfig.nvim')
-    
     use 'feline-nvim/feline.nvim'
-    
     use('nvim-tree/nvim-web-devicons')
     use('xiyaowong/transparent.nvim')
     use('nvim-tree/nvim-tree.lua')
@@ -18,7 +15,6 @@ require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { {'nvim-lua/plenary.nvim'} }
     })
-    
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
     use('dense-analysis/ale')
