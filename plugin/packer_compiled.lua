@@ -129,6 +129,16 @@ _G.packer_plugins = {
     path = "/home/thedmitry/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["remote-sshfs.nvim"] = {
+    loaded = true,
+    path = "/home/thedmitry/.local/share/nvim/site/pack/packer/start/remote-sshfs.nvim",
+    url = "https://github.com/NOSDuco/remote-sshfs.nvim"
+  },
+  syntastic = {
+    loaded = true,
+    path = "/home/thedmitry/.local/share/nvim/site/pack/packer/start/syntastic",
+    url = "https://github.com/vim-syntastic/syntastic"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/thedmitry/.local/share/nvim/site/pack/packer/start/telescope.nvim",
