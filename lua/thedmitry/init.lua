@@ -32,5 +32,5 @@ require('thedmitry.theme')
 
 require('thedmitry.feline')
 require('thedmitry.treesitter')
---require('thedmitry.lsp')
+require('thedmitry.lsp')
 
