@@ -7,7 +7,6 @@ require('packer').startup(function(use)
     use('williamboman/mason-lspconfig.nvim')
     
     use 'feline-nvim/feline.nvim'
-    use('williamboman/mason-lspconfig.nvim')
     
     use('nvim-tree/nvim-web-devicons')
     use('xiyaowong/transparent.nvim')
@@ -33,5 +32,5 @@ require('thedmitry.theme')
 
 require('thedmitry.feline')
 require('thedmitry.treesitter')
-require('thedmitry.lsp')
+--require('thedmitry.lsp')
 

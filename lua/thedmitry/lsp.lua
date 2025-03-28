@@ -1,1 +1,1 @@
-require('lspconfig').clangd.setup{}
+require("mason").setup()
