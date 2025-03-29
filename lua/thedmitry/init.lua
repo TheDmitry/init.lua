@@ -26,7 +26,7 @@ require('packer').startup(function(use)
     use('tpope/vim-fugitive')
     use('dense-analysis/ale')
     use('NOSDuco/remote-sshfs.nvim')
-    use('vim-syntastic/syntastic')
+ --   use('vim-syntastic/syntastic')
 end)
 
 require('thedmitry.settings')
